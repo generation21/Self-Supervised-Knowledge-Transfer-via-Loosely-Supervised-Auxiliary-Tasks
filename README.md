@@ -1,4 +1,4 @@
-SSKT(under review at WACV2022)
+SSKT(under review)
 ================================
 
 Concept map
