@@ -1,4 +1,4 @@
-SSKT(under review)
+SSKT(Accepted WACV2022)
 ================================
 
 Concept map
@@ -83,9 +83,23 @@ Experiment
 |  CIFAR10       | ResNet20        |        -        |  <b>92.46±0.15 (P+I, CE)              | ResNet50, ResNet50                             |
  
  
+## Citation
+
+If you use SSKD in your research, please consider citing:
+
+```Latex
+@InProceedings{SSKD_2022_WACV,
+author = {Seungbum Hong, Jihun Yoon, and Min-Kook Choi},
+title = {Self-Supervised Knowledge Transfer via Loosely Supervised Auxiliary Tasks},
+booktitle = {In The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+month = {January},
+year = {2022}
+}
+```
+ 
 References
  ----------------
 * [1] Hinton et al. - ["Distilling the knowledge in a neural network"](https://arxiv.org/abs/1503.02531) (NIPSW, 2014)
 * [2] Hara et al. - ["Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?"](https://arxiv.org/abs/1711.09577) (CVPR, 2018)
 * [3] Zhang et al. - ["Deep mutual learning"](https://arxiv.org/abs/1706.00384) (CVPR, 2018)
-* [4] Davison and Johns - ["Self-supervised gen- eralisation with meta auxiliary learning"](https://arxiv.org/abs/1901.08933) (NeurIPS, 2019)
+* [4] Davison and Johns - ["Self-Supervised Generalisation with Meta Auxiliary Learning"](https://arxiv.org/abs/1901.08933) (NeurIPS, 2019)
